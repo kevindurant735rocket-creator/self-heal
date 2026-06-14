@@ -1,0 +1,8 @@
+[project]
+name = "self-heal"
+version = "0.1.0"
+description = "自主修复循环 — 测试失败→分析→修复→重试"
+requires-python = ">=3.10"
+dependencies = []
+[project.scripts]
+self-heal = "self_heal.cli:main"
